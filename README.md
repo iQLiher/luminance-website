@@ -1,5 +1,5 @@
 -------------
-- Luminance -
+Luminance
 -------------
 
 HIGHLY RECOMMENDED:
