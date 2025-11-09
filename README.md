@@ -11,7 +11,7 @@ Short description:
 - Over 150+ wallpapers.
 - 100% responsive from start to end.
 
-GITHUB
+GITHUB:
 You can run it online on GITHUB (has some stuttering with the animations and bugs loading images for the first time, once everything loaded performance improves):
 
 https://iqliher.github.io/luminance-website/
