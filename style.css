@@ -2504,7 +2504,7 @@ footer article section form button:active {
 */
 
 
-#message-sent-alert-body {
+.message-sent-alert-body {
     position: fixed;
     top: 0;
     left: 0;
@@ -2518,7 +2518,8 @@ footer article section form button:active {
 }
 
 /* Whole Popup */
-#message-sent-popup {
+.message-sent-popup {
+    margin: 16px;
     transform: scale(0.1);
     opacity: 0;
 
@@ -2526,14 +2527,14 @@ footer article section form button:active {
 }
 
 /* Image and Text CONTAINER */
-#message-sent-popup div {
+.message-sent-popup div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 /* Check Image */
-#message-sent-popup div img {
+.message-sent-popup div img {
     position: relative;
     bottom: -12px;
     height: 64px;
@@ -2545,16 +2546,17 @@ footer article section form button:active {
 }
 
 /* Text */
-#message-sent-dialog {
+.message-sent-dialog {
     margin: 0;
-    padding: 24px;
+    padding: 24px 24px 22px 24px;
+    line-height: 1.5;
     background-color: #DFC;
     border: 1px solid #6C3;
     border-radius: 16px;
 }
 
 /* Button CONTAINER */
-#message-sent-back-btn {
+.message-sent-back-btn {
     display: flex;
     margin-top: 12px;
     padding: 12px;
@@ -2565,17 +2567,17 @@ footer article section form button:active {
     transition: all 100ms ease;
 }
 
-#message-sent-back-btn:hover {
+.message-sent-back-btn:hover {
     background-color: #00000005;
 }
 
 /* Button IMAGE */
-#message-sent-back-btn img {
+.message-sent-back-btn img {
     height: 24px;
 }
 
 /* Button TEXT */
-#message-sent-back-btn p {
+.message-sent-back-btn p {
     margin: 0;
     margin-top: 2px;
     color: #000;
@@ -2587,5 +2589,32 @@ footer article section form button:active {
 ----------------------------
 - MESSAGE SENT ALERT Close -
 ----------------------------
+
+-------------------------
+- SUBSCRIBED ALERT Open -
+-------------------------
+
+*/
+
+
+#subscribed-alert-body {
+    background-color: #def;
+}
+
+#subscribed-alert-popup div img {
+    filter: hue-rotate(120deg);
+}
+
+#subscribed-alert-dialog {
+    background-color: #cef;
+    border: 1px solid #5e98e0;
+}
+
+
+/*
+
+-------------------------
+- SUBSCRIBED ALERT Close -
+-------------------------
 
 */
