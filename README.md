@@ -12,6 +12,28 @@ Short description:
 - 100% responsive from start to end.
 
 GITHUB:
-You can run it online on GITHUB (has some stuttering with the animations and bugs loading images for the first time, once everything loaded performance improves):
+You can run it online on GITHUB (has some stuttering with the animations and bugs loading images for the first time, once everything loaded performance improves). It's also highly recommended to use a chromium based browser:
 
-https://iqliher.github.io/luminance-website/
+ONLINE:
+···············································
+· https://iqliher.github.io/luminance-website ·
+···············································
+
+REPO:
+https://github.com/iQLiher/luminance-website
+
+CODE LINES:
+2620 - style.css
+394  - contact.html
+303  - section-popular.html
+303  - section-nature.html
+303  - architecture.html
+303  - section-animals.html
+303  - section-people.html
+275  - about.html
+94   - index.html
+35   - message-sent-alert.html
+35   - subscribed-alert-for-about.html
+35   - subscribed-alert.html
+
+Total: 5003
