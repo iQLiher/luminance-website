@@ -15,9 +15,7 @@ GITHUB:
 You can run it online on GITHUB (has some stuttering with the animations and bugs loading images for the first time, once everything loaded performance improves). It's also highly recommended to use a chromium based browser:
 
 ONLINE:
-···············································
-· https://iqliher.github.io/luminance-website ·
-···············································
+https://iqliher.github.io/luminance-website
 
 REPO:
 https://github.com/iQLiher/luminance-website
